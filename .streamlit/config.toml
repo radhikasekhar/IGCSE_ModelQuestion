@@ -1,0 +1,61 @@
+# Academic exam-board theme: deep navy, serif headings like printed papers, clean sans body.
+
+[theme]
+font = "'Source Sans 3':https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
+headingFont = "'Source Serif 4':https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+baseFontSize = 15
+headingFontSizes = ["34px", "26px", "21px", "18px", "16px", "14px"]
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+baseRadius = "6px"
+buttonRadius = "6px"
+showWidgetBorder = true
+showSidebarBorder = false
+linkUnderline = false
+
+[theme.light]
+primaryColor = "#1B3A6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F4F9"
+textColor = "#1A2433"
+borderColor = "#D3DBE7"
+linkColor = "#1F5FA8"
+codeBackgroundColor = "#F1F4F9"
+dataframeHeaderBackgroundColor = "#E6ECF5"
+dataframeBorderColor = "#D3DBE7"
+blueColor = "#1F5FA8"
+greenColor = "#1E7A4C"
+redColor = "#B42318"
+orangeColor = "#B5590E"
+yellowColor = "#A07A00"
+violetColor = "#5B3E96"
+grayColor = "#5B6678"
+chartCategoricalColors = ["#1B3A6B", "#2E86AB", "#C9A227", "#1E7A4C", "#B42318", "#5B3E96", "#5B6678"]
+
+[theme.light.sidebar]
+backgroundColor = "#13294B"
+secondaryBackgroundColor = "#1D3A63"
+textColor = "#F3F6FB"
+borderColor = "#2C4A75"
+primaryColor = "#C9A227"
+codeBackgroundColor = "#1D3A63"
+
+[theme.dark]
+primaryColor = "#3B6CB5"
+backgroundColor = "#0E1726"
+secondaryBackgroundColor = "#172338"
+textColor = "#E6ECF5"
+borderColor = "#2A3A55"
+linkColor = "#8DB7F0"
+codeBackgroundColor = "#172338"
+dataframeHeaderBackgroundColor = "#1D2C45"
+dataframeBorderColor = "#2A3A55"
+chartCategoricalColors = ["#7EA6E0", "#4FB3D9", "#E0C05A", "#5CC08A", "#F07B6E", "#A98BE0", "#9AA6B8"]
+
+[theme.dark.sidebar]
+backgroundColor = "#0A1220"
+secondaryBackgroundColor = "#14203A"
+textColor = "#E6ECF5"
+borderColor = "#22314D"
+primaryColor = "#E0C05A"
+codeBackgroundColor = "#14203A"
